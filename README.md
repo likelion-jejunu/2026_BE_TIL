@@ -47,53 +47,74 @@
         ```
 
 
-## ✍️ 작성 내용 및 유의사항
+## ✍️ TIL 작성 내용/양식 및 유의사항
 
-* 작성 내용 및 유의사항은 아래 노션 참고
+* TIL 작성 내용/양식 및 유의사항은 아래 노션 참고
   👉 **LikeLion at JNU 14th > TIL**
-
-
 
 
 ## 🚀 제출 방법 (Fork & PR)
 
-### 1️⃣ Fork
-
-1. 본 레포지토리 (`2026_BE_TIL`) 접속
-2. 우측 상단 **Fork 클릭**
-
-
-### 2️⃣ Clone
+### 1️⃣ Fork & Clone
 
 ```bash
+# Fork 후
 git clone https://github.com/본인아이디/2026_BE_TIL.git
 cd 2026_BE_TIL
 ```
 
-### 3️⃣ 파일 생성 및 TIL 작성
+### 2️⃣ upstream 연결 (최초 1회)
 
 ```bash
-회차_주제.md
+git remote add upstream 원본레포주소(멋사TIL레포)
+git remote -v
 ```
 
+### 3️⃣ 브랜치 생성
 
-### 4️⃣ Commit & Push
+```bash
+git checkout -b username
+```
+
+예시
+
+```bash
+git checkout -b 2seul
+```
+
+### 4️⃣ TIL 작성 후 Commit
 
 ```bash
 git add .
-git commit -m "feat: [username] n회차 TIL 제출"
-git push origin main
+git commit -m "feat: n회차 TIL 제출"
 ```
 
-### 5️⃣ Pull Request 생성
+### 5️⃣ Push
 
-1. GitHub에서 본인 레포 접속
-2. **"Compare & pull request" 클릭**
-3. PR 생성
-    - PR 작성시 제목은 `[이름] n회차 TIL 제출`로 작성해주세요.
-    - ex) `[김이슬] 1회차 TIL 제출`
+```bash
+git push origin 브랜치이름
+```
+
+### 6️⃣ Pull Request 생성
+
+* GitHub에서 **Compare & pull request 클릭**
+* PR 생성
+  - PR 제목: [이름] n회차 TIL 제출
+    - ex) [김이슬] 1회차 TIL 제출
 
 ## 🔍 PR 처리 방식
 
 * 제출된 PR은 **백엔드 운영진이 확인 후 merge**됩니다.
 * 필요 시 수정 요청이 있을 수 있습니다.
+
+
+##  🔄 (중요) 최신 상태 동기화
+
+PR이 merge된 이후, 다음 작업(TIL 업로드) 전 반드시 진행(개인 레포지토리에서)
+
+```bash
+git checkout main
+git fetch upstream
+git merge upstream/main
+git push origin main
+```
