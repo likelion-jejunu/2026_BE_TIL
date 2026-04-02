@@ -86,7 +86,7 @@ git checkout -b 2seul
 
 ```bash
 git add .
-git commit -m "feat: n회차 TIL 제출"
+git commit -m "n회차 TIL 제출"
 ```
 
 ### 5️⃣ Push
