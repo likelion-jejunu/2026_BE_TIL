@@ -65,7 +65,8 @@ public class AnswerController {
 
 ### 3. 실습 / 과제 / 결과물
 
-<img width="1840" height="1109" alt="Image" src="https://github.com/user-attachments/assets/fbf114e7-accf-461a-a54c-17637b97a2f7" />
+
+![스크린샷](screenshot_01.png)
 
 
 
