@@ -1,0 +1,123 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1780423562156,
+  "projectRoot": "c:\\Users\\lee60\\2026_BE_TIL",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "bodleim": {
+      "path": "bodleim",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1780423562072,
+      "keyFiles": [
+        "1회차_Java for Spring.md",
+        "2회차_.md",
+        "3회차_OOP_TIL.md"
+      ]
+    },
+    "dadusdy14": {
+      "path": "dadusdy14",
+      "purpose": null,
+      "fileCount": 4,
+      "lastAccessed": 1780423562077,
+      "keyFiles": [
+        "1회차_Java for Spring.md",
+        "2회차_Java OOP.md",
+        "3회차_OOP.md",
+        "spring_initializr.png"
+      ]
+    },
+    "dydqls5940": {
+      "path": "dydqls5940",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1780423562078,
+      "keyFiles": [
+        "1회차_Java for Spring.md",
+        "TIL_3회차_현용빈.md"
+      ]
+    },
+    "hnneul": {
+      "path": "hnneul",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1780423562082,
+      "keyFiles": [
+        "1회차_Java for Spring.md",
+        "2회차_JAVA OOP.md",
+        "3회차_OOP(인터페이스, 상속, 다형성, 추상화).md"
+      ]
+    },
+    "LewisKim-hub": {
+      "path": "LewisKim-hub",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1780423562088,
+      "keyFiles": [
+        "1회차_Java for Spring.md"
+      ]
+    },
+    "munho-kang": {
+      "path": "munho-kang",
+      "purpose": null,
+      "fileCount": 4,
+      "lastAccessed": 1780423562089,
+      "keyFiles": [
+        "1회차_Java for Spring.md",
+        "2회차_OOP(클래스와 캡슐화).md",
+        "3회차_JAVA_OOP(인터페이스_상속_다형성_추상화).md",
+        "screenshot_01.png"
+      ]
+    },
+    "seunghyeon-L": {
+      "path": "seunghyeon-L",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1780423562091,
+      "keyFiles": [
+        "1회차_Java for Spring.md",
+        "2회차_[JAVA] OOP(클래스와 캡슐화).md",
+        "3회차_[JAVA] OOP(인터페이스, 상속,다형성, 추상화).md"
+      ]
+    },
+    "seunghyko": {
+      "path": "seunghyko",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1780423562092,
+      "keyFiles": [
+        "1회차_Java for Spring.md"
+      ]
+    }
+  },
+  "hotPaths": [],
+  "userDirectives": []
+}
